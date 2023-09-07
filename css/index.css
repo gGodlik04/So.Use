@@ -31,7 +31,6 @@ a:visited {
 
 .container__hexagons-wrap {
   width: 25%;
-  margin-bottom: 15px;
 }
 .container__hexagons-wrap svg {
   position: relative;
@@ -51,6 +50,17 @@ a:visited {
   height: 220%;
 }
 
+@media screen and (max-width: 1600px) {
+  .container__hexagons-wrap {
+    width: 33.3%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container__hexagons-wrap {
+    width: 50%;
+    scale: 0.7;
+  }
+}
 .container__button {
   position: relative;
   bottom: 15%;
