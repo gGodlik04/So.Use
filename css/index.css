@@ -41,6 +41,14 @@ a:visited {
   margin-right: auto;
   stroke: #000;
   stroke-width: 3px;
+  transition: 1s;
+}
+.container__hexagons-wrap svg image {
+  transition: all 0.5s ease-out;
+}
+.container__hexagons-wrap svg:hover image {
+  width: 300%;
+  height: 220%;
 }
 
 .container__button {
