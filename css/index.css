@@ -13,6 +13,14 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .container__hexagons {
   padding-top: auto;
   padding-bottom: auto;
@@ -23,7 +31,7 @@ body {
 
 .container__hexagons-wrap {
   width: 25%;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .container__hexagons-wrap svg {
   position: relative;
@@ -31,11 +39,13 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  stroke: #000;
+  stroke-width: 3px;
 }
 
 .container__button {
   position: relative;
-  bottom: 10%;
+  bottom: 15%;
   margin-left: auto;
   margin-right: auto;
   height: 50px;
@@ -50,4 +60,14 @@ body {
   font-weight: 700;
   position: relative;
   top: 25%;
+}
+
+.header {
+  padding: 15px;
+  text-align: center;
+}
+.header p {
+  font-weight: 900;
+  font-size: 25px;
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
