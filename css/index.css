@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -23,8 +24,11 @@ a:visited {
 .container__hexagons {
   padding-top: auto;
   padding-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 100vh;
 }
 
@@ -42,9 +46,13 @@ a:visited {
   margin-right: auto;
   stroke: #000;
   stroke-width: 3px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 .container__hexagons-wrap svg image {
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .container__hexagons-wrap svg:hover image {
@@ -92,4 +100,4 @@ a:visited {
   font-weight: 900;
   font-size: 25px;
   color: #fff;
-}/*# sourceMappingURL=index.css.map */
+}
